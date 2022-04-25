@@ -1,0 +1,182 @@
+body {
+  font-size:1rem;
+  color: hsl(0, 0%, 100%);
+ font-family: "League Spartan" ;
+ font-weight: 500;
+}
+
+/* Image Section */
+
+.desktop-pattern-top {
+position: absolute;
+top:0;
+}
+
+.desktop-pattern-bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.mobile-pattern-top, .mobile-pattern-bottom {
+  display: none;
+}
+
+.star-icon {
+  padding-right: 0.3rem;
+}
+
+.profile-image {
+  width: 3rem;
+  border-radius: 50px;
+  margin: 2rem 0 0 1.5rem;
+}
+
+
+/* Parent Section */
+
+.parent-section {
+  position: absolute;
+  top:12%;
+  left: 12%;
+
+  width: 74%;
+}
+
+
+/* Text Part */
+
+.text-part {
+  padding: 0 14% 5% 0;
+}
+
+h1 {
+  color: hsl(300, 43%, 22%) ;
+  font-weight: 700;
+  font-size: 3.7rem;
+  line-height: 1;
+}
+
+.text-part-p {
+  color: hsl(303, 10%, 53%) ;
+  padding-top: 2%;
+  font-size: 1.1rem;
+}
+
+
+/* Rating Part */
+
+.rating-part-p {
+  display: inline-block;
+  padding-left: 1.5rem;
+  color:  hsl(300, 43%, 22%) ;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.rating {
+  background-color: hsl(300, 24%, 96%);
+  padding: 3.5% 0 0 4%;
+  width: 29rem;
+  border-radius: 10px;
+}
+
+.rating-reviews{
+margin: 0 0 1rem 0;
+}
+
+.rating-report-guru {
+ margin: 0 0 1rem 3rem;
+}
+
+.rating-best-tech {
+  margin: 0 0 1rem 5.5rem;
+}
+
+
+/* Review Part */
+
+.review {
+  background-color: hsl(300, 43%, 22%);
+  width: 22rem;
+  position: relative;
+  border-radius: 10px;
+}
+
+.review-colton {
+  margin: 0 2.3rem 0 0 ;
+}
+
+.review-irene {
+  margin: 0 2.3rem 0 0 ;
+    top: 1rem;
+}
+
+.review-anne {
+    top: 2rem;
+}
+
+.name {
+  display: inline-block;
+  line-height: 0.5;
+  margin-left: 1.2rem;
+  position: relative;
+  top:1.8rem;
+}
+
+.profile-name-p {
+  color:  hsl(303, 10%, 53%) ;
+  font-weight: 400;
+}
+
+.review-p {
+  padding: 1.5rem;
+}
+
+
+/* Mobile Responsive Section */
+
+@media ( max-width:990px ) {
+
+.parent-section {
+  left: 20%;
+}
+
+  .desktop-pattern-top, .desktop-pattern-bottom {
+    display: none;
+  }
+
+  .mobile-pattern-top {
+    display: inline;
+    position: absolute;
+    top: 0;
+  }
+
+  .mobile-pattern-bottom {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 150%;
+  }
+
+  .text-part{
+    text-align: center;
+  }
+
+  .rating {
+    margin: 2rem 5% 2rem 5%;
+    text-align: center;
+    padding: 0.5rem 0 0.1rem 0;
+    width: 21rem;
+  }
+
+  .review {
+    margin: 0 10%;
+  }
+
+  .rating-part-p {
+    display: block;
+    padding: 0.5rem 0 0 0;
+  }
+
+}
